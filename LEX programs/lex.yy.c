@@ -364,12 +364,10 @@ static char *yy_last_accepting_cpos;
 char *yytext;
 #line 1 "39inputdigit.l.txt"
 #define INITIAL 0
-/* Lex program to check whether input is digit or not. */
-#line 3 "39inputdigit.l.txt"
+#line 2 "39inputdigit.l.txt"
 #include<stdio.h>
 #include<stdlib.h>
-/* Rule Section */
-#line 373 "lex.yy.c"
+#line 371 "lex.yy.c"
 
 /* Macros after this point can all be overridden by user definitions in
  * section 1.
@@ -523,9 +521,9 @@ YY_DECL
 	register char *yy_cp, *yy_bp;
 	register int yy_act;
 
-#line 7 "39inputdigit.l.txt"
+#line 5 "39inputdigit.l.txt"
 
-#line 529 "lex.yy.c"
+#line 527 "lex.yy.c"
 
 	if ( yy_init )
 		{
@@ -611,25 +609,25 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 8 "39inputdigit.l.txt"
+#line 6 "39inputdigit.l.txt"
 printf("digit");
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 9 "39inputdigit.l.txt"
+#line 7 "39inputdigit.l.txt"
 printf("not a digit");
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 10 "39inputdigit.l.txt"
+#line 8 "39inputdigit.l.txt"
 ;
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 11 "39inputdigit.l.txt"
+#line 9 "39inputdigit.l.txt"
 ECHO;
 	YY_BREAK
-#line 633 "lex.yy.c"
+#line 631 "lex.yy.c"
 case YY_STATE_EOF(INITIAL):
 	yyterminate();
 
@@ -1517,15 +1515,14 @@ int main()
 	return 0;
 	}
 #endif
-#line 11 "39inputdigit.l.txt"
+#line 9 "39inputdigit.l.txt"
 
 int main()
 {
-		// The function that starts the analysis
 	yylex();
-		return 0;
+	return 0;
 }
-int yywarp()
+int yywrap()
 {
-return 1;
+	return (1);
 }
